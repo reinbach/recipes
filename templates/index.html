@@ -1,0 +1,11 @@
+{{ define "content"}}
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <ul>
+    {{ range .Data }}
+      <li><a href="recipe/?title={{ .Title }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}
