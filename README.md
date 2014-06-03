@@ -7,3 +7,5 @@ Setup
 -----
 
 Create a `recipe` dir in the root directory and add your recipes there.
+
+    go run server.go
